@@ -1,0 +1,43 @@
+.card{
+    padding:1rem;
+    transition: transform .5s;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.price{
+    display: inline-block;
+}
+
+.type{
+    text-transform: uppercase;
+    color:#758283;
+}
+
+.pack-button{
+    background-color: #1B98F5;
+    color: white;
+    border-radius: 50px;
+    padding:.5rem;
+    border: transparent;
+    text-transform: uppercase;
+}
+
+.pack-button:hover{
+    background-color: #6eb8f1;
+}
+
+.features-list{
+    text-align: left;
+}
+
+span{
+    padding:6px;
+}
+
+.disable{
+    color:#758283;
+}
